@@ -1,0 +1,19 @@
+name: Floorislava
+version: '0.1'
+main: nl.corwindev.floorislava.Main
+api-version: 1.19
+prefix: Floor is Lava
+depend: [ WorldEdit ]
+authors: [ CorwinDev ]
+website: corwindev.nl
+commands:
+  begin:
+    description: Start the game
+    usage: /begin {radius}
+    permission: floorislava.begin
+    permission-message: You don't have permission to do this!
+  end:
+    description: End the game
+    usage: /end
+    permission: floorislava.end
+    permission-message: You don't have permission to do this!

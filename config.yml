@@ -1,0 +1,28 @@
+# Lava start height
+startheight: 64
+# How long before the lava starts moving
+gracePeriod: 20
+# How long between the lava rising
+roundTimer: 60
+# The blocks that the lava will rise
+increaseamount: 3
+# Time before the game begins
+pvpandlavastartsafter: 300
+# How fast the border will shrink
+borderspeed: 10
+
+
+#Translations
+# For the sidebar you can use &6 for changing the color to yellow
+
+# The title of the countdown sidebar
+countdownTitle: '§6Prepare for the game!'
+# Time before the game begins in the sidebar
+timeleft: '§6Starts in: §c'
+
+# The title of the sidebar
+sidebarTitle: '§6Floor is Lava'
+players: '§6Players: §c'
+lavalevel: '§6Lava level: §c'
+border: '§cBorder: §6'
+nextlavaraise: '§6Next lava raise: §c'
